@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Your Business</div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#login" class="login-btn">Log In</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Innovative Solutions for Your Business</h1>
+            <p>Empowering businesses to thrive in the modern era.</p>
+            <button>Explore Services</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card" data-aos="fade-right">
+                <i class="fas fa-chart-line"></i>
+                <h3>Business Consulting</h3>
+                <p>Strategic insights to grow your business.</p>
+            </div>
+            <div class="card" data-aos="fade-up">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>We build websites that convert.</p>
+            </div>
+            <div class="card" data-aos="fade-left">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Marketing</h3>
+                <p>Reach the right audience, effectively.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial">
+                <p>"Their consulting service transformed our business!"</p>
+                <span>- Happy Client</span>
+            </div>
+            <div class="testimonial">
+                <p>"The website they developed doubled our conversions."</p>
+                <span>- Satisfied Customer</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <h2>Latest Updates</h2>
+        <div class="blog-posts">
+            <div class="post" data-aos="zoom-in">
+                <h3>How to Grow Your Business in 2024</h3>
+                <p>Discover the latest trends that will shape the future...</p>
+            </div>
+            <div class="post" data-aos="zoom-in">
+                <h3>Web Development Best Practices</h3>
+                <p>Stay ahead of the curve with these development tips...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Your Business. All rights reserved.</p>
+    </footer>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
